@@ -98,6 +98,7 @@ if __name__ == "__main__":
 
     DATASET_MODE = True
     AUDIO_MODIFY = False
+    SAMPLE_RATE = 16000
 
     if DATASET_MODE == True:
         mel_spectrogram = torchaudio.transforms.MelSpectrogram(
